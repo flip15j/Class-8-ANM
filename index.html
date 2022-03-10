@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>We cannot do it (do it at your own risk)</h1>
+
+<p>
+1. Write a Java Program that displays, “This is my First Practical” 100 times using the for 
+loop.
+<br/>
+Sol. : class Main {<br/>
+ public static void main(String[] args) {<br/>
+ int n = 100;<br/>
+for (int i = 1; i <= n; ++i) {<br/>
+ System.out.println("I want to learn Programming in Java.");<br/>
+ }<br/>
+ }<br/>
+}<br/>
+<br/>
+2. Write a Java Program to print odd numbers from 1 to 1000.
+<br/>
+Sol.: class OddNumber {<br/>
+public static void main(String args[]) {<br/>
+System.out.println("The Odd Numbers are:");<br/>
+for (int i = 1; i <= 1000; i++) {<br/>
+if (i % 2 != 0) {<br/>
+System.out.print(i + " ");<br/>
+}<br/>
+}<br/>
+}<br/>
+}<br/>
+<br/>
+3. Write a Java Program to swap two numbers using third variable.
+<br/>
+Sol.: public class SwapNumbers {<br/>
+ public static void main(String[] args) {<br/>
+ int first = 23, second = 25;<br/>
+ System.out.println("--Before swap--");<br/>
+ System.out.println("First number = " + first);<br/>
+ System.out.println("Second number = " + second);<br/>
+int temporary = first;<br/>
+first = second;<br/>
+second = temporary;<br/>
+ System.out.println("--After swap--");<br/>
+ System.out.println("First number = " + first);<br/>
+ System.out.println("Second number = " + second);<br/>
+ }<br/>
+}<br/>
+<br/>
+4. Write a Java Program to Add Two Integers.
+<br/>
+Sol.: class Main {<br/>
+ public static void main(String[] args) {<br/>
+
+ System.out.println("Enter two numbers");<br/>
+ int first = 10;<br/>
+ int second = 20;<br/>
+ 
+ System.out.println(first + " " + second);<br/>
+ int sum = first + second;<br/>
+ System.out.println("The sum is: " + sum);<br/>
+ }<br/>
+}<br/>
+<br/>
+5. Write a Java Program to Multiply Two Floating Point Numbers.
+<br/>
+Sol.: public class MultiplyTwoNumbers {<br/>
+ public static void main(String[] args) {<br/>
+ float first = 1.5f;<br/>
+ float second = 2.0f;<br/>
+ float product = first * second;<br/>
+ System.out.println("The product is: " + product);<br/>
+ }<br/>
+}<br/>
+<br/>
+6. Write a Java Program to check whether a number is Odd or Even.
+<br/>
+Sol.: import java.util.Scanner;<br/>
+ public class EvenOdd {<br/>
+ public static void main(String[] args) {<br/>
+ Scanner reader = new Scanner(System.in);<br/>
+ System.out.print("Enter a number: ");<br/>
+ int num = reader.nextInt();<br/>
+ if(num % 2 == 0)<br/>
+ System.out.println(num + " is even");<br/>
+ else<br/>
+ System.out.println(num + " is odd");<br/>
+ }<br/>
+}<br/>
+<br/>
+7. Write a Java Program to find the Largest Among Three Numbers.
+<br/>
+Sol.: public class Largest {<br/>
+ public static void main(String[] args) {<br/>
+ double n1 = -4.5, n2 = 3.9, n3 = 2.5;<br/>
+ if( n1 >= n2 && n1 >= n3)<br/>
+ System.out.println(n1 + " is the largest number.");<br/>
+ else if (n2 >= n1 && n2 >= n3)<br/>
+ System.out.println(n2 + " is the largest number.");<br/>
+ else<br/>
+ System.out.println(n3 + " is the largest number.");<br/>
+ }<br/>
+}<br/>
+<br/>
+8. Write a Java Program to calculate sum of first 100 Natural Numbers.
+<br/>
+Sol.: public class SumNatural {<br/>
+ public static void main(String[] args) {<br/>
+ int num = 100, sum = 0;<br/>
+ for(int i = 1; i <= num; ++i)<br/>
+ {<br/>
+sum = sum + i;<br/>
+ }<br/>
+ System.out.println("Sum = " + sum);<br/>
+ }<br/>
+ }<br/>
+<br/>
+9. Write a Java Program to check whether a number is Negative or Positive.
+<br/>
+Sol.: public class PositiveNegative {<br/>
+ public static void main(String[] args) {<br/>
+ double number = 12.3;<br/>
+if (number < 0.0)<br/><br/>
+ System.out.println(number + " is a negative number.");<br/>
+else if ( number > 0.0)<br/>
+ System.out.println(number + " is a positive number.");<br/>
+else<br/>
+ System.out.println(number + " is 0.");<br/>
+ }<br/>
+ }<br/>
+<br/>
+10. Write a Java Program to find Factorial of Number.
+<br/>
+Sol.: public class Factorial {<br/>
+ public static void main(String[] args) {<br/>
+ int num = 5;<br/>
+ long factorial = 1;<br/>
+ for(int i = 1; i <= num; ++i)<br/>
+ {<br/>
+factorial = factorial * i;<br/>
+}<br/>
+ System.out.printf("Factorial of %d = %d", num, factorial);<br/>
+ }<br/>
+}<br/>
+<br/>
+11. Write a Java Program to Add Two Integers using user input.
+<br/>
+Sol.: import java.util.Scanner;<br/>
+ class Main {<br/>
+ public static void main(String[] args) {<br/>
+ 
+ Scanner input = new Scanner(System.in);<br/>
+ 
+ System.out.println("Enter two numbers ");<br/>
+ int first = input.nextInt();<br/>
+ int second = input.nextInt();<br/>
+ 
+ System.out.println(first + " " + second);<br/>
+ int sum = first + second;<br/>
+ System.out.println(" The sum is: " + sum);<br/>
+ }<br/>
+}<br/>
+<br/>
+12. Write a Java Program to Multiply Two Floating Point Numbers using user input.
+<br/>
+Sol.: import java.util.Scanner;<br/>
+ public class MultiplyTwoNumbers {<br/>
+ public static void main(String[] args) {<br/>
+ 
+ Scanner input = new Scanner(System.in);<br/>
+ System.out.println("Enter Your Numbers");<br/>
+ float first = input.nextFloat();<br/>
+ float second = input.nextFloat();<br/>
+ float product = first * second;<br/>
+ System.out.println("The product is: " + product);<br/>
+ }<br/>
+}<br/>
+<br/>
+13. Write a Java Program to generate Multiplication Table.
+<br/>
+Sol.: public class MultiplicationTable {<br/>
+ public static void main(String[] args) {<br/>
+ int num = 6;<br/>
+ for(int i = 1; i <= 10; ++i)<br/>
+ 
+ System.out.printf("%d * %d = %d \n", num, i, num * i);<br/>
+ }<br/>
+ }<br/>
+}<br/>
+<br/>
+14. Write a Java Program to check whether the number is Prime or not.
+<br/>
+Sol.: public class Main {<br/>
+ public static void main(String[] args) {<br/>
+ int num = 29;<br/>
+ boolean flag = false;<br/>
+ for (int i = 2; i <= num / 2; ++i) {<br/>
+ if (num % i == 0) {<br/>
+ flag = true;<br/>
+ break;<br/>
+ }<br/>
+ }<br/>
+ if (!flag)<br/>
+ System.out.println(num + " is a prime number.");<br/>
+ else<br/>
+ System.out.println(num + " is not a prime number.");<br/>
+ }<br/>
+}<br/>
+<br/>
+15. Write a Java Program to calculate the Power of Number.
+<br/>
+Sol.: class Main {<br/>
+ public static void main(String[] args) {<br/>
+ int base = 2, exponent = 4;<br/>
+ long result = 1;<br/>
+ while (exponent != 0) {<br/>
+ result *= base;<br/>
+ --exponent;<br/>
+ }<br/>
+ System.out.println("Answer = " + result);<br/>
+ }<br/>
+}<br/>
+
+<br/>
+(From someOne from class 8 ANB)
+
+
+</p>
+
+</body>
+</html>
